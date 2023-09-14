@@ -1,0 +1,40 @@
+body{
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, footer {
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    margin: auto 0;
+    padding: 50px 0px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25px;
+}
+
+ol {
+    width: 50px;
+    margin: 0px auto;
+}
+
+img {
+    width: 300px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: auto;
+}
